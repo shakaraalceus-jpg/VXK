@@ -1,4 +1,3 @@
-```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,7 +8,7 @@
 
   <meta
     name="description"
-    content="VXK Advisory helps small businesses turn operational chaos into simple, repeatable systems."
+    content="VXK Advisory helps small businesses turn operational complexity into clear, repeatable systems."
   >
 
   <link rel="stylesheet" href="styles.css">
@@ -17,825 +16,327 @@
 
 <body>
 
-<!-- =========================================================
-     NAVIGATION
-========================================================= -->
-
 <header class="site-header">
-  <nav class="nav container">
+  <nav class="nav container" aria-label="Primary navigation">
 
-    <a href="#home" class="logo">
-      <span class="logo-main">VXK</span>
-      <span class="logo-sub">ADVISORY</span>
+    <a href="index.html" class="logo" aria-label="VXK Advisory home">
+      <span class="logo-mark">VXK</span>
+      <span class="logo-name">ADVISORY</span>
     </a>
 
     <div class="nav-links">
-      <a href="#services">Services</a>
-      <a href="#process">How We Work</a>
-      <a href="#who-we-help">Who We Help</a>
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      <a href="services.html">Services</a>
+      <a href="process.html">How We Work</a>
+      <a href="who-we-help.html">Who We Help</a>
+      <a href="work.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="nav-cta">Start a Conversation</a>
     </div>
+
+    <button class="mobile-menu-button" type="button" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+    </button>
 
   </nav>
 </header>
 
 
-<!-- =========================================================
-     HERO / HOME
-========================================================= -->
+<main>
 
-<main id="home">
+  <!-- HERO -->
 
-<section class="hero">
+  <section class="hero">
+    <div class="container hero-grid">
 
-  <div class="container hero-grid">
+      <div class="hero-content">
 
-    <div class="hero-content">
+        <p class="eyebrow">VIRTUAL. EXECUTION. KNOWLEDGE.</p>
 
-      <p class="eyebrow">VIRTUAL. EXECUTION. KNOWLEDGE.</p>
+        <h1>
+          Make the business
+          <span>easier to operate.</span>
+        </h1>
 
-      <h1>
-        Turn operational chaos into
-        <span>simple, repeatable systems.</span>
-      </h1>
+        <p class="hero-text">
+          VXK Advisory helps small businesses understand how work gets done,
+          identify operational friction, and build practical systems that
+          make the business more organized, repeatable, and measurable.
+        </p>
 
-      <p class="hero-text">
-        VXK Advisory helps small businesses understand how work gets done,
-        identify operational friction, and build practical systems that make
-        the business more organized, repeatable, and measurable.
-      </p>
+        <div class="hero-actions">
+          <a href="services.html" class="button button-primary">
+            Explore services
+          </a>
 
-      <div class="hero-actions">
-        <a href="#services" class="button primary">
-          Explore services
+          <a href="contact.html" class="button button-ghost">
+            Start a conversation
+          </a>
+        </div>
+
+      </div>
+
+
+      <div class="hero-panel">
+
+        <div class="panel-top">
+          <span>THE VXK APPROACH</span>
+          <span>01 / 04</span>
+        </div>
+
+        <div class="approach-list">
+
+          <div class="approach-item active">
+            <span>01</span>
+            <div>
+              <strong>Diagnose</strong>
+              <p>Understand what is happening now.</p>
+            </div>
+          </div>
+
+          <div class="approach-item">
+            <span>02</span>
+            <div>
+              <strong>Design</strong>
+              <p>Create a practical better way to work.</p>
+            </div>
+          </div>
+
+          <div class="approach-item">
+            <span>03</span>
+            <div>
+              <strong>Execute</strong>
+              <p>Put the approved solution into practice.</p>
+            </div>
+          </div>
+
+          <div class="approach-item">
+            <span>04</span>
+            <div>
+              <strong>Optimize</strong>
+              <p>Measure, improve, and simplify.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- POSITIONING -->
+
+  <section class="section intro-section">
+
+    <div class="container split-heading">
+
+      <div>
+        <p class="eyebrow">WHAT VXK DOES</p>
+
+        <h2>
+          Better operations start with understanding
+          how the business actually works.
+        </h2>
+      </div>
+
+      <div>
+        <p class="large-text">
+          Growing businesses often accumulate manual work, disconnected
+          tools, unclear processes, scattered information, and
+          owner-dependent workflows.
+        </p>
+
+        <a href="process.html" class="text-link">
+          See how we work <span>↗</span>
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SERVICES PREVIEW -->
+
+  <section class="section section-muted">
+
+    <div class="container">
+
+      <div class="section-heading-row">
+
+        <div>
+          <p class="eyebrow">SERVICES</p>
+
+          <h2>
+            Practical solutions for
+            operational complexity.
+          </h2>
+        </div>
+
+        <a href="services.html" class="text-link">
+          View all services <span>↗</span>
         </a>
 
-        <a href="#contact" class="button secondary">
-          Start a conversation
+      </div>
+
+
+      <div class="service-preview-grid">
+
+        <a href="services.html#diagnostic" class="service-preview">
+          <span class="card-number">01</span>
+
+          <div>
+            <h3>Operations Diagnostic</h3>
+
+            <p>
+              Understand what is creating friction before deciding
+              what needs to change.
+            </p>
+          </div>
+
+          <span class="card-arrow">↗</span>
         </a>
+
+
+        <a href="services.html#implementation" class="service-preview featured">
+          <span class="card-number">02</span>
+
+          <div>
+            <h3>Systems Implementation</h3>
+
+            <p>
+              Turn recommendations into practical systems,
+              workflows, documentation, and tools.
+            </p>
+          </div>
+
+          <span class="card-arrow">↗</span>
+        </a>
+
+
+        <a href="services.html#advisory" class="service-preview">
+          <span class="card-number">03</span>
+
+          <div>
+            <h3>Operational Advisory</h3>
+
+            <p>
+              Ongoing support for businesses that need to continuously
+              improve how work gets done.
+            </p>
+          </div>
+
+          <span class="card-arrow">↗</span>
+        </a>
+
       </div>
 
     </div>
 
-    <div class="hero-card">
+  </section>
 
-      <p class="eyebrow">THE VXK APPROACH</p>
 
-      <div class="method-stack">
+  <!-- WORK -->
 
-        <div class="method-item">
-          <span>01</span>
-          <strong>Diagnose</strong>
-          <p>Understand what is happening now.</p>
+  <section class="section work-preview">
+
+    <div class="container">
+
+      <div class="section-heading-row">
+
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+
+          <h2>
+            Analytics, operations,
+            and business problem solving.
+          </h2>
         </div>
 
-        <div class="method-item">
-          <span>02</span>
-          <strong>Design</strong>
-          <p>Create a practical better way to work.</p>
+        <a href="work.html" class="text-link">
+          Explore the work <span>↗</span>
+        </a>
+
+      </div>
+
+
+      <a href="case-study-bellabeat.html" class="featured-project">
+
+        <div class="project-meta">
+          <span>CASE STUDY</span>
+          <span>CAPSTONE PROJECT</span>
         </div>
 
-        <div class="method-item">
-          <span>03</span>
-          <strong>Execute</strong>
-          <p>Put the approved solution into practice.</p>
+        <div class="project-content">
+
+          <div>
+            <h3>Bellabeat App Analytics</h3>
+
+            <p>
+              Turning smart-device activity data into wellness insights,
+              behavioral observations, and business recommendations.
+            </p>
+          </div>
+
+          <span class="large-arrow">↗</span>
+
         </div>
 
-        <div class="method-item">
-          <span>04</span>
-          <strong>Optimize</strong>
-          <p>Measure, improve, and simplify.</p>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- =========================================================
-     POSITIONING
-========================================================= -->
-
-<section class="section positioning">
-
-  <div class="container narrow">
-
-    <p class="eyebrow">WHAT VXK DOES</p>
-
-    <h2>
-      Better operations start with understanding
-      how the business actually works.
-    </h2>
-
-    <p class="large-text">
-      Growing businesses often accumulate manual work, disconnected tools,
-      unclear processes, scattered information, and owner-dependent
-      workflows.
-    </p>
-
-    <p>
-      VXK Advisory examines the way work moves through the business,
-      identifies where friction exists, and helps build systems and
-      processes that are easier to operate, understand, and improve.
-    </p>
-
-  </div>
-
-</section>
-
-
-<!-- =========================================================
-     SERVICES
-========================================================= -->
-
-<section id="services" class="section light-section">
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <p class="eyebrow">SERVICES</p>
-
-      <h2>
-        Practical solutions for businesses
-        that are becoming harder to operate.
-      </h2>
-
-      <p>
-        VXK focuses on solving operational problems—not adding complexity
-        for the sake of adding technology.
-      </p>
-
-    </div>
-
-
-    <div class="service-grid">
-
-      <!-- SERVICE 1 -->
-
-      <article class="service-card">
-
-        <span class="service-number">01</span>
-
-        <h3>Operations Diagnostic</h3>
-
-        <p class="service-description">
-          Understand what is creating friction inside the business before
-          deciding what needs to change.
-        </p>
-
-        <h4>Includes</h4>
-
-        <ul>
-          <li>Current-state assessment</li>
-          <li>Workflow and process review</li>
-          <li>Operational bottleneck identification</li>
-          <li>Quick-win opportunities</li>
-          <li>Future-state recommendations</li>
-          <li>Implementation roadmap</li>
-        </ul>
-
-      </article>
-
-
-      <!-- SERVICE 2 -->
-
-      <article class="service-card featured-service">
-
-        <span class="service-number">02</span>
-
-        <h3>Systems Implementation</h3>
-
-        <p class="service-description">
-          Turn operational recommendations into practical systems,
-          workflows, documentation, and tools.
-        </p>
-
-        <h4>Examples</h4>
-
-        <ul>
-          <li>Client intake systems</li>
-          <li>CRM and follow-up workflows</li>
-          <li>SOP libraries</li>
-          <li>File and information organization</li>
-          <li>Project management systems</li>
-          <li>Dashboards and reporting</li>
-          <li>Automation workflows</li>
-        </ul>
-
-      </article>
-
-
-      <!-- SERVICE 3 -->
-
-      <article class="service-card">
-
-        <span class="service-number">03</span>
-
-        <h3>Operational Advisory</h3>
-
-        <p class="service-description">
-          Ongoing operational support for businesses that need to
-          continuously improve how work gets done.
-        </p>
-
-        <h4>Focus areas</h4>
-
-        <ul>
-          <li>KPI and performance review</li>
-          <li>Process improvement</li>
-          <li>Workflow analysis</li>
-          <li>Systems optimization</li>
-          <li>Automation opportunities</li>
-          <li>Operational planning</li>
-          <li>Implementation oversight</li>
-        </ul>
-
-      </article>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- =========================================================
-     HOW WE WORK
-========================================================= -->
-
-<section id="process" class="section">
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <p class="eyebrow">HOW WE WORK</p>
-
-      <h2>
-        A simple process designed around
-        the problem—not the tool.
-      </h2>
-
-    </div>
-
-
-    <div class="process-grid">
-
-      <article class="process-card">
-        <span>01</span>
-        <h3>Diagnose</h3>
-        <p>
-          Review the current state, understand the workflow, and identify
-          where time, information, people, or technology are creating
-          friction.
-        </p>
-      </article>
-
-      <article class="process-card">
-        <span>02</span>
-        <h3>Design</h3>
-        <p>
-          Translate the findings into a practical future-state process,
-          system, workflow, or reporting structure.
-        </p>
-      </article>
-
-      <article class="process-card">
-        <span>03</span>
-        <h3>Execute</h3>
-        <p>
-          Implement the approved solution, document the process, and
-          organize the systems people will actually use.
-        </p>
-      </article>
-
-      <article class="process-card">
-        <span>04</span>
-        <h3>Optimize</h3>
-        <p>
-          Review results, identify additional friction, and continuously
-          improve the way work gets done.
-        </p>
-      </article>
-
-    </div>
-
-
-    <div class="client-journey">
-
-      <p class="eyebrow">CLIENT JOURNEY</p>
-
-      <div class="journey">
-
-        <span>Research</span>
-        <b>→</b>
-        <span>Diagnose</span>
-        <b>→</b>
-        <span>Discuss</span>
-        <b>→</b>
-        <span>Recommend</span>
-        <b>→</b>
-        <span>Implement</span>
-        <b>→</b>
-        <span>Measure</span>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- =========================================================
-     WHO WE HELP
-========================================================= -->
-
-<section id="who-we-help" class="section dark-section">
-
-  <div class="container">
-
-    <div class="section-heading light-heading">
-
-      <p class="eyebrow">WHO WE HELP</p>
-
-      <h2>
-        Built for small businesses
-        experiencing operational complexity.
-      </h2>
-
-      <p>
-        VXK initially focuses on businesses where the owner or small team
-        is carrying too much of the operational load.
-      </p>
-
-    </div>
-
-
-    <div class="industry-grid">
-
-      <div class="industry-item">
-        <span>01</span>
-        <h3>Real Estate Investors</h3>
-        <p>
-          Systems for leads, projects, information, vendors, and repeatable
-          workflows.
-        </p>
-      </div>
-
-      <div class="industry-item">
-        <span>02</span>
-        <h3>Real Estate Professionals</h3>
-        <p>
-          Better organization across clients, transactions, follow-up,
-          documentation, and operations.
-        </p>
-      </div>
-
-      <div class="industry-item">
-        <span>03</span>
-        <h3>Startup Founders</h3>
-        <p>
-          Practical operating systems that help growing teams move from
-          reactive work toward repeatable processes.
-        </p>
-      </div>
-
-      <div class="industry-item">
-        <span>04</span>
-        <h3>Consultants & Coaches</h3>
-        <p>
-          Systems that organize client delivery, information, workflows,
-          and recurring operational tasks.
-        </p>
-      </div>
-
-      <div class="industry-item">
-        <span>05</span>
-        <h3>Professional Services</h3>
-        <p>
-          Process and system improvements that create greater visibility
-          and consistency.
-        </p>
-      </div>
-
-      <div class="industry-item">
-        <span>06</span>
-        <h3>Local Service Businesses</h3>
-        <p>
-          Practical workflows for inquiries, customers, scheduling,
-          follow-up, documentation, and reporting.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- =========================================================
-     PROBLEM AREAS
-========================================================= -->
-
-<section class="section">
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <p class="eyebrow">WHAT WE LOOK AT</p>
-
-      <h2>
-        Operational problems rarely live in just one place.
-      </h2>
-
-    </div>
-
-
-    <div class="problem-grid">
-
-      <article>
-        <span>PEOPLE</span>
-        <h3>Who is responsible?</h3>
-        <p>
-          Unclear responsibilities, poor handoffs, communication gaps,
-          and owner dependency.
-        </p>
-      </article>
-
-      <article>
-        <span>PROCESS</span>
-        <h3>How does work happen?</h3>
-        <p>
-          Repetitive tasks, manual workflows, missing SOPs,
-          inconsistencies, and bottlenecks.
-        </p>
-      </article>
-
-      <article>
-        <span>INFORMATION</span>
-        <h3>Where does information live?</h3>
-        <p>
-          Disorganized files, duplicate data, spreadsheet chaos,
-          and missing documentation.
-        </p>
-      </article>
-
-      <article>
-        <span>TECHNOLOGY</span>
-        <h3>Are the tools helping?</h3>
-        <p>
-          Disconnected software, underused tools, manual data entry,
-          and unnecessary complexity.
-        </p>
-      </article>
-
-      <article>
-        <span>MEASUREMENT</span>
-        <h3>Can the business see what is happening?</h3>
-        <p>
-          Missing KPIs, poor reporting, limited visibility,
-          and unclear operational performance.
-        </p>
-      </article>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- =========================================================
-     PROFESSIONAL PORTFOLIO
-========================================================= -->
-
-<section id="work" class="section light-section">
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <p class="eyebrow">PROFESSIONAL PORTFOLIO</p>
-
-      <h2>
-        Analytics is one part of the way I solve business problems.
-      </h2>
-
-      <p>
-        My professional work combines data analysis, operations thinking,
-        process improvement, and business communication.
-      </p>
-
-    </div>
-
-
-    <div class="portfolio-columns">
-
-      <!-- ANALYTICS -->
-
-      <article class="portfolio-block">
-
-        <p class="eyebrow">PROFESSIONAL ANALYTICS WORK</p>
-
-        <h3>Data → Insight → Decision</h3>
-
-        <p>
-          Practical analytics projects demonstrating how I clean,
-          analyze, visualize, and communicate information to support
-          business questions.
-        </p>
-
-        <div class="skill-list">
+        <div class="project-footer">
           <span>Excel</span>
           <span>Python / pandas</span>
-          <span>Data Cleaning</span>
-          <span>Data Validation</span>
-          <span>Descriptive Analysis</span>
-          <span>Tableau</span>
-          <span>Data Storytelling</span>
+          <span>Data Analysis</span>
           <span>Business Recommendations</span>
         </div>
 
-      </article>
-
-
-      <!-- VXK -->
-
-      <article class="portfolio-block">
-
-        <p class="eyebrow">VXK CASE STUDIES</p>
-
-        <h3>Operations → Systems → Improvement</h3>
-
-        <p>
-          As VXK projects are completed, this section will document
-          operational problems, the approach used to solve them, and
-          measurable outcomes.
-        </p>
-
-        <div class="case-placeholder">
-
-          <span>CASE STUDIES</span>
-
-          <strong>Selected projects coming soon.</strong>
-
-          <p>
-            Evidence will be added as real client work is completed,
-            measured, and documented.
-          </p>
-
-        </div>
-
-      </article>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- =========================================================
-     FEATURED ANALYTICS PROJECT
-========================================================= -->
-
-<section class="section">
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <p class="eyebrow">SELECTED ANALYTICS PROJECT</p>
-
-      <h2>Bellabeat App Analytics</h2>
-
-      <p>
-        A data analysis project examining smart-device activity,
-        sleep patterns, time-of-day behavior, and potential marketing
-        opportunities.
-      </p>
-
-    </div>
-
-
-    <div class="project-feature">
-
-      <div class="project-info">
-
-        <span class="project-tag">
-          COMPLETED • CAPSTONE
-        </span>
-
-        <h3>
-          Turning smart-device data into wellness insights.
-        </h3>
-
-        <p>
-          The project analyzed Fitbit activity, sleep, and time-of-day
-          behavior to identify trends and translate them into business
-          recommendations for the Bellabeat App.
-        </p>
-
-        <div class="project-stats">
-
-          <div>
-            <strong>457</strong>
-            <span>recorded activity days</span>
-          </div>
-
-          <div>
-            <strong>35</strong>
-            <span>unique IDs</span>
-          </div>
-
-          <div>
-            <strong>43.1%</strong>
-            <span>days below 5,000 steps</span>
-          </div>
-
-          <div>
-            <strong>7.1h</strong>
-            <span>average sleep per sleep day</span>
-          </div>
-
-        </div>
-
-      </div>
-
-
-      <div class="project-findings">
-
-        <p class="eyebrow">KEY FINDINGS</p>
-
-        <div class="finding">
-          <strong>01</strong>
-          <p>
-            Low-to-moderate activity was common in the supplied sample.
-          </p>
-        </div>
-
-        <div class="finding">
-          <strong>02</strong>
-          <p>
-            Activity clustered around midday and evening.
-          </p>
-        </div>
-
-        <div class="finding">
-          <strong>03</strong>
-          <p>
-            Sleep provided useful context but was less consistently tracked.
-          </p>
-        </div>
-
-        <div class="finding">
-          <strong>04</strong>
-          <p>
-            Time-of-day context provided more useful differentiation than
-            a simple weekday/weekend comparison.
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
-
-    <div class="project-disclaimer">
-
-      <strong>Data note:</strong>
-
-      The dataset is small and historical. Findings are directional and
-      should not be treated as representative of all Bellabeat customers.
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- =========================================================
-     ABOUT VXK
-========================================================= -->
-
-<section id="about" class="section about-section">
-
-  <div class="container about-grid">
-
-    <div>
-
-      <p class="eyebrow">ABOUT VXK</p>
-
-      <h2>
-        Business systems built around
-        how people actually work.
-      </h2>
-
-    </div>
-
-
-    <div class="about-copy">
-
-      <p>
-        VXK Advisory was created around a simple idea:
-        small businesses should not have to depend on complicated,
-        disconnected, or unnecessarily manual systems to operate.
-      </p>
-
-      <p>
-        The work combines operational thinking, business analysis,
-        data, documentation, process improvement, and practical
-        technology to help businesses create clearer ways of working.
-      </p>
-
-      <p>
-        VXK is intentionally focused on practical implementation.
-        The goal is not to introduce technology for its own sake.
-        The goal is to understand the problem first and build a solution
-        that makes the business easier to operate.
-      </p>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- =========================================================
-     FOUNDER
-========================================================= -->
-
-<section class="section founder-section">
-
-  <div class="container founder-grid">
-
-    <div class="founder-label">
-
-      <p class="eyebrow">FOUNDER</p>
-
-      <h2>Shakara Alceus</h2>
-
-      <p class="founder-title">
-        Operations & Business Analytics
-      </p>
-
-    </div>
-
-
-    <div>
-
-      <p>
-        My background combines operations, project management, data
-        analytics, customer-facing work, and hands-on problem solving.
-      </p>
-
-      <p>
-        I am particularly interested in the space where business
-        operations, systems, process improvement, and analytics meet.
-        VXK is where I apply that perspective to practical business
-        problems.
-      </p>
-
-      <a
-        href="Shakara Alceus _ Operations & Business Analyst _ 2026.docx.pdf"
-        target="_blank"
-        rel="noopener"
-        class="text-link"
-      >
-        View resume →
       </a>
 
     </div>
 
-  </div>
-
-</section>
+  </section>
 
 
-<!-- =========================================================
-     CONTACT
-========================================================= -->
+  <!-- ABOUT PREVIEW -->
 
-<section id="contact" class="section contact-section">
+  <section class="section section-dark">
 
-  <div class="container contact-grid">
+    <div class="container dark-grid">
 
-    <div>
+      <div>
+        <p class="eyebrow eyebrow-light">ABOUT VXK</p>
 
-      <p class="eyebrow">CONTACT VXK</p>
+        <h2>
+          Systems built around
+          how people actually work.
+        </h2>
+      </div>
+
+      <div>
+        <p>
+          VXK Advisory combines operational thinking, business analysis,
+          data, documentation, process improvement, and practical
+          technology to help businesses create clearer ways of working.
+        </p>
+
+        <a href="about.html" class="button button-light">
+          About VXK
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- CTA -->
+
+  <section class="section cta-section">
+
+    <div class="container cta-content">
+
+      <p class="eyebrow">READY TO START?</p>
 
       <h2>
         Have an operational problem
@@ -843,206 +344,60 @@
       </h2>
 
       <p>
-        Tell us a little about your business and what is currently
-        creating friction. The first step is understanding the problem.
+        Tell us what is currently difficult, manual, scattered,
+        or inconsistent.
       </p>
 
-      <div class="contact-details">
-
-        <p>
-          <strong>Email</strong><br>
-          <a href="mailto:Shakaraalceus.pm@proton.me">
-            Shakaraalceus.pm@proton.me
-          </a>
-        </p>
-
-        <p>
-          <strong>LinkedIn</strong><br>
-          <a
-            href="https://www.linkedin.com/in/shakara-alceus-pm"
-            target="_blank"
-            rel="noopener"
-          >
-            Connect on LinkedIn
-          </a>
-        </p>
-
-        <p>
-          <strong>Professional Work</strong><br>
-          <a
-            href="https://github.com/shakaraalceus-jpg"
-            target="_blank"
-            rel="noopener"
-          >
-            View GitHub
-          </a>
-        </p>
-
-      </div>
+      <a href="contact.html" class="button button-primary">
+        Start a conversation
+      </a>
 
     </div>
 
-
-    <!-- CONTACT FORM -->
-
-    <div class="contact-form-card">
-
-      <!--
-        IMPORTANT:
-        GitHub Pages does not process HTML forms by itself.
-
-        Before publishing, connect this form to a service such as
-        Formspree, Netlify Forms, or another form provider.
-
-        Replace the "#" in the action below with your form endpoint.
-      -->
-
-      <form action="#" method="POST">
-
-        <div class="form-group">
-
-          <label for="name">Name</label>
-
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Your name"
-            required
-          >
-
-        </div>
-
-
-        <div class="form-group">
-
-          <label for="email">Email</label>
-
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="you@example.com"
-            required
-          >
-
-        </div>
-
-
-        <div class="form-group">
-
-          <label for="business">Business / Company</label>
-
-          <input
-            type="text"
-            id="business"
-            name="business"
-            placeholder="Your business name"
-          >
-
-        </div>
-
-
-        <div class="form-group">
-
-          <label for="service">What can we help with?</label>
-
-          <select id="service" name="service">
-
-            <option value="">
-              Select an area
-            </option>
-
-            <option value="operations-diagnostic">
-              Operations Diagnostic
-            </option>
-
-            <option value="systems-implementation">
-              Systems Implementation
-            </option>
-
-            <option value="operational-advisory">
-              Operational Advisory
-            </option>
-
-            <option value="not-sure">
-              I'm not sure yet
-            </option>
-
-          </select>
-
-        </div>
-
-
-        <div class="form-group">
-
-          <label for="message">Tell us about the problem</label>
-
-          <textarea
-            id="message"
-            name="message"
-            rows="6"
-            placeholder="What is currently difficult, manual, scattered, or inconsistent?"
-            required
-          ></textarea>
-
-        </div>
-
-
-        <button type="submit" class="button primary full-width">
-          Send inquiry
-        </button>
-
-      </form>
-
-    </div>
-
-  </div>
-
-</section>
+  </section>
 
 </main>
 
 
-<!-- =========================================================
-     FOOTER
-========================================================= -->
-
 <footer class="footer">
 
-  <div class="container footer-content">
+  <div class="container footer-main">
 
     <div>
-
-      <strong>VXK ADVISORY</strong>
+      <a href="index.html" class="footer-logo">VXK ADVISORY</a>
 
       <p>
-        Virtual. Execution. Knowledge.
+        Business systems and operational advisory
+        for small businesses.
       </p>
-
     </div>
 
-    <div class="footer-links">
+    <div class="footer-nav">
 
-      <a href="#services">Services</a>
-      <a href="#process">How We Work</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact</a>
+      <div>
+        <span>Explore</span>
+        <a href="services.html">Services</a>
+        <a href="process.html">How We Work</a>
+        <a href="who-we-help.html">Who We Help</a>
+      </div>
+
+      <div>
+        <span>Company</span>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
 
     </div>
 
   </div>
 
 
-  <div class="footer-bottom">
+  <div class="container footer-bottom">
 
-    <p>
-      Business systems and operational advisory for small businesses.
-    </p>
+    <span>© 2026 VXK Advisory. All rights reserved.</span>
 
-    <p>
-      © 2026 VXK Advisory. All rights reserved.
-    </p>
+    <span>Virtual. Execution. Knowledge.</span>
 
   </div>
 
@@ -1050,4 +405,3 @@
 
 </body>
 </html>
-```
